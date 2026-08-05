@@ -12,6 +12,10 @@ extension. The visualization layer uses PySide6 and pyqtgraph.
 > This is a model-derived liquidity estimate, not an exchange order book. It is
 > intended for visualization, research, and demonstration purposes only.
 
+## Demo
+
+![Liquid Raw real-time liquidity visualization](demo_screenshot.jpg)
+
 ## What it does
 
 - Converts OHLCV candles into a 3D `[time, price, channel]` feature tensor.
