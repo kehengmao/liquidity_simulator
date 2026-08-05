@@ -1,0 +1,25 @@
+# Python bytecode and Numba caches
+__pycache__/
+*.pyc
+*.pyo
+*.nbc
+*.nbi
+
+# Virtual environments
+.venv/
+venv/
+
+# Local configuration and secrets
+.env
+.env.*
+
+# Build output
+build/
+dist/
+*.egg-info/
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
