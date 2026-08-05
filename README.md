@@ -9,6 +9,9 @@ The project is designed for MetaTrader 5 data on Windows. Its numerical core
 uses NumPy and Numba, with an optional ahead-of-time (AOT) compiled CPython
 extension. The visualization layer uses PySide6 and pyqtgraph.
 
+In live operation, the online pipeline has demonstrated stable real-time data
+updates at 200 ms intervals.
+
 > This is a model-derived liquidity estimate, not an exchange order book. It is
 > intended for visualization, research, and demonstration purposes only.
 
