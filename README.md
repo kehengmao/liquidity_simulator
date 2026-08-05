@@ -176,6 +176,16 @@ The generated platform-specific `kernels_core` extension is written to
 `liba/fields/kernel/`. If the extension cannot be imported, `LiquidEngine`
 continues with the Numba JIT implementation.
 
+## Production standalone build
+
+For a production-style full standalone build, install Nuitka and compile the
+application with the required packages included:
+
+```powershell
+python -m pip install nuitka
+nuitka --standalone --include-package=PySide6 --include-package=liba --include-package=MetaTrader5 --enable-plugin=pyside6 liquidity_raw.py
+```
+
 ## Repository layout
 
 ```text
